@@ -439,9 +439,10 @@ section {
 }
 
 .Gaming table, th, td {
+    padding:20px;
   border:1px solid black;
   margin: auto;
-  width: 500px;
+  width: 700px;
   text-align: left;
   background-color: white;
 }
@@ -452,5 +453,15 @@ table.past th ,td {
   width: 500px;
   text-align: left;
   background-color: white;
+}
+.Gaming img{
+     width: 100%;           /* fill the width of the card */
+    max-width: 700px;      /* don’t get too large */
+    height: auto;          /* maintain aspect ratio */
+    border-radius: 10px;   /* optional rounded corners */
+    display: block;
+    margin: 0 auto 10px;   /* center and add space below */
+    object-fit: cover; 
+    padding: 20px;
 }
 
