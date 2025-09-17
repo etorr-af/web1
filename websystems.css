@@ -10,11 +10,7 @@ nav{
     text-align: center;
 }
 */
-p {
-    text-align: center;
-    text-justify: auto;
-    padding:20px;
-}
+
 
 /*h2 {
     font-size: 36px;
@@ -308,21 +304,35 @@ nav a:hover {
 /* Main content */
 main {
     padding: 1.5rem;
+    max-width: 500px;
+    margin: 20px auto;
+
+
+}
+p {
+    text-align: left;
+    text-justify: auto;
+    padding: 50px;
 }
 
 /* Hobbies section */
+h2{
+    margin: 20px;
+}
 section {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 1rem;
+    margin: 20px;
 }
 
 .hobby {
     flex: 1 1 200px;
     text-align: center;
     background: #f4f4f4;
-    padding: 1rem;
+    font-size: 20px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -433,4 +443,14 @@ section {
   margin: auto;
   width: 500px;
   text-align: left;
+  background-color: white;
 }
+
+table.past th ,td {
+    border:1px solid black;
+  margin: auto;
+  width: 500px;
+  text-align: left;
+  background-color: white;
+}
+
