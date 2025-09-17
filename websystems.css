@@ -265,7 +265,6 @@ margin: 0;
 /* General styles */
 body {
     background-image: url('images/bg.jpg');
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -427,4 +426,11 @@ section {
   color: #333;
   font-size: 25px;
   line-height: 1.6;
+}
+
+.Gaming table, th, td {
+  border:1px solid black;
+  margin: auto;
+  width: 500px;
+  text-align: left;
 }
