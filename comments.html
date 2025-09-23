@@ -1,24 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Comments </title>
+<head>
+    <title> Comments </title>
+    <link rel="stylesheet" href="websystems.css">
+</head>
+<body>
+    <header>
         <a href="index.html"> Home</a>
-    </head>
-    <body>
-        <header>
-            <h1> Comments </h1>
-        </header>
-        <h2>Overall Structure</h2>
-        <p>
-            
-        </p>
-        <h3>Picture References</h3>
-        <section>
+        <h1> Comments </h1>
+    </header>
+    <section>
+        <div class="card-wrapper">
+            <!-- tech-->
+            <div class="technicalities-card">
+                <h2>Technicalities</h2>
+                <p>
+                    This website can be accessed online via a URL containing four html files, one css file and an images folder containing a few images that were used to further illustrate this website.
+                    The pages that can be accessed within the website are;
+                </p>
+                <ul>
+                    <li>The main homepage: ‘website’</li>
+                    <li><code>past.html</code> – My Past</li>
+                    <li><code>future.html</code> – My Aspirations</li>
+                    <li><code>comments.html</code> – Comments</li> 
+                </ul>
+                <p>
+                    All four pages are accessible through the homepage as well as the menu on the top left of each page.
+                </p>
+            </div>
+
+            <!-- structure -->
+            <div class="structure-card">
+                <h2>Webpage Structure</h2>
+                <p>
+                    The overall structure of this website follows a clear and consistent layout across all pages to ensure ease of navigation and maintainability. Each page uses semantic HTML5 elements to improve readability for both developers and assistive technologies.
+                </p>
+                <ul>
+                    <li><strong>&lt;!DOCTYPE html&gt;:</strong> Declares the document type to ensure consistent rendering across browsers.</li>
+                    <li><strong>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;:</strong> These elements define the main structure of each webpage.</li>
+                    <li><strong>&lt;header&gt;:</strong> Contains the site’s title and navigation links, repeated on each page for consistency.</li>
+                    <li><strong>&lt;nav&gt;:</strong> The navigation bar allows users to access different sections/pages of the website easily.</li>
+                    <li><strong>&lt;section&gt;:</strong> Used to group related content into logical blocks (e.g., hobbies, K-pop, games, technicalities).</li>
+                    <li><strong>&lt;div&gt;:</strong> Helps organize content within each section and apply specific styles using CSS classes.</li>
+                    <li><strong>&lt;table&gt;:</strong> Used to organize and present information in a structured and easy-to-read format.</li>
+                    <li><strong>&lt;footer&gt;:</strong> Appears at the bottom of each page with acknowledgements or reference notes.</li>
+                </ul>
+                <p>
+                    Using this consistent structure across all pages not only improves the user experience but also makes the website easier to update and maintain.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- aes-->
+    <h2>Aesthetics</h2>
+    <section>
+        <div class="aes">
+            <table>
+                <tr>
+                    <th>Function</th>
+                    <th>Usage/explanation</th>
+                </tr>
+                <tr>
+                    <td>Hover</td>
+                    <td>In a tutorial class, i was intrigued with the hover function, so I implemented that for the navigation menu and the boxes for an interactive display with the user. </td>
+                </tr>
+                <tr>
+                    <td>Images</td>
+                    <td>The images that are presented in the website are to provide visuals and context as well as examples</td>
+                </tr>
+                <tr>
+                    <td>Font(Size)</td>
+                    <td>The font size varies on importance and readability as well as the section it's in </td>
+                </tr>
+                <tr>
+                    <td>Backgrounds and Colours</td>
+                    <td>The colours used for this website are dark grey, soft maroon and light grey. Not only are these colours some of my favourite, I feel as though they go well with the ‘Kpop Obsession’ section of the website.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="selectors">
+            <p>I have created a selector class for separate sections of the websites such as; </p>
             <ul>
-                <li>ahri - </li>
-                <li>enhypen - </li>
-                <li>jungwon - </li>
+                <li>kpop-card</li>
+                <li>bias-card</li>
+                <li>songs-card</li>
+                <li>hobbies/hobby</li>
+                <li>technicalities-card</li>
+                <li>future-card</li>
             </ul>
-        </section>
-    </body>
+            <p>This allows for easy modification and changes to be made to specific aspects of the website.</p>
+        </div>
+    </section>
+
+    <!-- acess -->
+    <h2>Accessibility</h2>
+    <section>
+        <div class="accessibility">
+            <p>
+                This website has been designed with accessibility in mind to ensure it can be used by as many people as possible, including those with disabilities.
+                Semantic HTML5 tags are used to provide a clear content structure, which benefits screen readers and other assistive technologies.
+                Navigation links are consistent across pages to aid usability.
+                Text sizes and colors have been chosen for readability and sufficient contrast.
+                Alt attributes are provided for images to describe visuals for users with visual impairments.
+                The layout is responsive, so it adapts to different screen sizes including mobile devices.
+            </p>
+        </div>
+    </section>
+
+    <!-- ref -->
+    <h3>Picture References</h3>
+    <section>
+        <ul>
+            <li>ahri - https://i.pinimg.com/1200x/13/92/10/139210fe5036b5f9f9e9dbf71cd95a42.jpg </li>
+            <li>enhypen - https://i.pinimg.com/736x/39/7c/1e/397c1e463a3acb9e753b1870407ebb19.jpg </li>
+            <li>jungwon - https://i.pinimg.com/736x/13/af/f4/13aff498361367e351287b1fa9360f3f.jpg</li>
+        </ul>
+    </section>
+    <!-- foot -->
+    <footer class="footer">
+        <p>All images are referenced above. Thanks for exploring my website!</p>
+    </footer>
+</body>
 </html>

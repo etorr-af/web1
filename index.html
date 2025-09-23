@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>web assignment</title>
-        <link rel="stylesheet" href="websystems.css">
-    </head>
-    <body>
-        <header>
-            <h1>website</h1>
+<head>
+    <title>Web Assignment</title>
+    <link rel="stylesheet" href="websystems.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header id="main-header">
+            <h1>Website</h1>
             <nav>
-                <a href="past.html"> My Past</a>
-                <a href="future.html"> My Aspirations</a>
-                <a href="comments.html"> Comments</a>
+                <a href="past.html">My Past</a>
+                <span class="separator">-</span>
+                <a href="future.html">My Aspirations</a>
+                <span class="separator">-</span>
+                <a href="comments.html">Comments</a>
             </nav>
         </header>
-        <p> 
-            <!----fix this paragraph---->
-                My name is a secret. 
-                I was born in New Zealand but i'm Filipino. 
-                I arrived in Australia in 2014 and lived here ever since. I am currently taking Bachelor of Information Technology.
-                This website is going to present me, my hobbies, likes and dislikes 
-                as well as my well-thought-out future and past experiences. 
-                Enjoy the rest of this website!.
-            </p>
-             <h2>Hobbies</h2>
+
+        <!-- intro -->
+        <p>
+            My name is a secret. I was born in New Zealand, but I'm Filipino. I arrived in Australia in 2014 and have lived here ever since. 
+            I am currently studying a Bachelor of Information Technology. This website presents my hobbies, likes and dislikes, as well as 
+            my well-thought-out future plans and past experiences. Enjoy the rest of this website!
+        </p>
+
+        <!-- hobbies-->
+        <h2>Hobbies</h2>
         <section>
             <div class="hobby">
                 <h3>Gaming</h3>
@@ -36,89 +39,99 @@
                 <h3>Music</h3>
                 <p>Music has always been a big part of my life, whether listening or performing.</p>
             </div>
-        </section> 
+        </section>
 
+        <!-- kpopcard-->
         <h2>K-Pop Obsessions</h2>
-<section class="kpop">
-    <!-- enha -->
-    <div class="kpop-card">
-        <img src="images/enhypen.jpg" alt="ENHYPEN">
-        <h3>ENHYPEN</h3>
-        <div class="text">
-        <p> Liking this group ever since the survival show. 
-            Their music gives vampire vibes, because that is their theme. 
-                     To be vampires.</p>
-                     </div>
+        <section class="kpop">
+            <!-- enha -->
+            <div class="kpop-card">
+                <img src="images/enhypen.jpg" alt="ENHYPEN">
+                <h3>ENHYPEN</h3>
+                <div class="text">
+                    <p>Liking this group ever since the survival show. Their music gives vampire vibes, because that is their theme—to be vampires.</p>
+                </div>
+            </div>
+
+            <!-- ult bias -->
+            <div class="bias">
+                <h3 class="bias-title">My <strong>ULTIMATE</strong> Bias</h3>
+                <div class="bias-card">
+                    <img src="images/jungwon.jpg" alt="Jungwon">
+                    <h4>Jungwon (ENHYPEN)</h4>
+                    <p>Jungwon is my ultimate bias. He caught my attention during the survival show with his unique voice and boba eyes.</p>
+                </div>
+            </div>
+
+            <!-- top songs -->
+            <div class="songs-card">
+                <h3>Favorite Songs (so far)</h3>
+                <div class="card-content">
+                    <ol>
+                        <li>Echoes</li>
+                        <li>Still a Monster</li>
+                        <li>Moonstuck</li>
+                        <li>Loose</li>
+                        <li>Bite Me</li>
+                        <li>Polaroid Love</li>
+                        <li>Criminal Love</li>
+                        <li>Chaconne</li>
+                        <li>Sacrifice</li>
+                        <li>Shout Out</li>
+                        <li>One in a Billion</li>
+                        <li>Fatal Trouble</li>
+                        <li>Lucifer</li>
+                        <li>Scream</li>
+                        <li>Teeth</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- BTS idk if i wna put this -->
+            <!--
+            <div class="kpop-card">
+                <img src="images/bts.jpg" alt="BTS">
+                <h3>BTS</h3>
+                <pre>The first ever K-pop group I liked. As cliché as it sounds, they helped me get through a lot.</pre>
+            </div>
+            -->
+        </section>
+
+        <!-- game -->
+        <section class="Gaming">
+            <h2>Games I Like</h2>
+            <table>
+                <tr>
+                    <th>Game</th>
+                    <th>Why I Like</th>
+                    <th>Other</th>
+                </tr>
+                <tr>
+                    <td>League of Legends (Wildrift)</td>
+                    <td>I play support, top, or mid lane roles in Wildrift.</td>
+                    <td>
+                        My favourite character is Ahri (mid lane)
+                        <br>
+                        <img src="images/ahri.jpg" alt="Ahri">
+                    </td>
+                </tr>
+                <tr>
+                    <td>REPO</td>
+                    <td>I like playing with my friends. It's funny because of the characters and the horror aspect.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Overcooked</td>
+                    <td>This game gets me mad, but it's really fun with others.</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
     </div>
 
-    <!-- bias -->
-    <div class="bias">
-        <h3 class="bias-title">My <B>ULTIMATE</B> Bias</h3>
-        <div class="bias-card">
-            <img src="images/jungwon.jpg" alt="jungwon">
-            <h4>jungwon (ENHYPEN)</h4>
-            <p>Jungwon is my ultimate bias. He has caught my attention during the survival show with his unique voice and boba eyes.</p>
-        </div>
-    </div>
-    <!-- top songs -->
-  <div class="songs-card">
-    <h3>Favorite Songs (so far)</h3>
-    <div class="card-content">
-      <ol>
-        <li>Echoes</li>
-        <li>Still a Monster</li>
-        <li>Moonstuck</li>
-        <li>Loose</li>
-        <li>Bite Me</li>
-        <li>Polaroid Love</li>
-        <li>Criminal Love</li>
-        <li>Chaconne</li>
-        <li>Sacrifice</li>
-        <li>Shout Out</li>
-        <li>One in a Billion</li>
-        <li>Fatal Trouble</li>
-        <li>Lucifer</li>
-        <li>Scream</li>
-        <li>Teeth</li>
-      </ol>
-    </div>
-  </div>
-</div>
-        <!-- bts 
-    <div class="kpop-card">
-        <img src="images/bts.jpg" alt="BTS">
-        <h3>BTS</h3>
-        <pre>The first ever kpop group I liked and what got me into kpop and as cliche as it sounds, 
-            they helped me get through a lot </pre>
-    </div>
-</section>
-idk-->
-    
-    <section class = "Gaming">
-        <h2>Games I like</h2>
-        <table>
-             <tr>
-    <th>Game</th>
-    <th>Why I Like </th>
-    <th>Other</th>
-  </tr>
-  <tr>
-    <td>League of Legends (Wildrift)</td>
-    <td>In League of Legends Wildrift I play the roles of support, top or mid lane</td>
-    <td>my favourite character is ahri as mid lane 
-         <img src="images/ahri.jpg" alt="ahri">
-    </td>
-  </tr>
-  </tr>
-  <tr>
-    <td>REPO</td>
-    <td>I like playing with my friends and its funny because of the characters and the horror aspect of the game</td>
-  </tr>
-  <tr>
-    <td>Overcooked</td>
-    <td>This game gets me mad but it is really fun with other people</td>
-  </tr>
-</table>
-    </section>
-    </body>
+    <!-- foot -->
+    <footer class="footer">
+        <p>All images used are referenced (with URL) on the <a href="comments.html">Comments</a> page.</p>
+    </footer>
+</body>
 </html>
